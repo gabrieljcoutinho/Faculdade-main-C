@@ -1,13 +1,51 @@
-# Trabalho de escola
-- Trabalho de escola da matéria C
+# Exercícios de Lógica em C - Menu Interativo
 
-- Nesse projeto programado em C tivemos odesfio de fazer um porgrama no qual o usuário irá escolher uma opção entre: Sequência Fibonacci(o programa pede para colocar uma quantidade para a sequencia começar, entao se a pessoa escolhe 5 por exemplo a orde do fibonacci será: 1 1 2 3 5...), Fatoriais(por exemplo 5! ficará: 5 x 4 x 3 x 2 x 1 = 120), Verificador de palindromo(o usuario colocará uma palvra e o program verá se é um palindo, um palindromo é uma palavra que se ler de frente para tras ou de traz para frente continua sendo a mesma palavra ex: RADAR) e Verificação de uma SubString(palavras dentro de uma palvra ex: Guarda-roupa)
+Este projeto consiste em um sistema de menu desenvolvido em linguagem C para resolver desafios clássicos de lógica de programação e manipulação de strings. O trabalho foi realizado como parte das atividades acadêmicas da matéria.
 
-Colaboradores: 
- Gabriel    (https://github.com/gabrieljcoutinho)
- 
- Roberto    (https://github.com/rmoreirafiap)
- 
- Guilherme  (https://github.com/bufungo)
+---
 
-Feito
+## Funcionalidades
+
+O programa oferece um menu interativo onde o usuário pode escolher entre quatro operações distintas:
+
+### 1. Sequência de Fibonacci
+Calcula e exibe a sequência de Fibonacci até um número de termos definido pelo usuário (limite de 50).
+* **Exemplo:** Se a entrada for 5, o retorno será `0 1 1 2 3`.
+
+### 2. Cálculo de Fatoriais
+Gera uma lista de fatoriais de 1 até o número fornecido pelo usuário (limite de 20). Utiliza `unsigned long long` para garantir precisão em números maiores.
+* **Exemplo:** `5! = 120`.
+
+### 3. Verificador de Palíndromos
+Analisa uma palavra e identifica se ela é um palíndromo (se a leitura é idêntica de frente para trás e de trás para frente).
+* **Exemplo:** `RADAR` é um palíndromo.
+
+### 4. Verificação de Substring
+Verifica se uma determinada sequência de caracteres (segunda string) está contida dentro de outra palavra principal (primeira string).
+* **Exemplo:** "roupa" dentro de "guarda-roupa".
+
+---
+
+## Colaboradores
+
+* **Gabriel Jorge Coutinho** (RM: 565441) - [GitHub](https://github.com/gabrieljcoutinho)
+* **Guilherme Ferraz de Medeiros** (RM: 564743) - [GitHub](https://github.com/bufungo)
+* **Roberto Marques Moreira** (RM: 564935) - [GitHub](https://github.com/rmoreirafiap)
+
+---
+
+## Como Executar
+
+1.  Certifique-se de ter um compilador C (como GCC) instalado.
+2.  Compile o arquivo principal:
+    ```bash
+    gcc main.c -o menu_exercicios
+    ```
+3.  Execute o programa:
+    ```bash
+    ./menu_exercicios
+    ```
+
+---
+
+> **Nota de Experiência:** Esta atividade foi realizada via Microsoft Teams, proporcionando uma experiência de colaboração superior à de outras plataformas, permitindo um foco maior no desenvolvimento prático da lógica de programação.
